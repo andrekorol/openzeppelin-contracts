@@ -7,6 +7,7 @@ module.exports = {
     ],
     providerOptions: {
         default_balance_ether: '10000000000000000000000000',
+        _chainId: 31337,
     },
     mocha: {
         fgrep: '[skip-on-coverage]',

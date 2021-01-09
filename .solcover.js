@@ -7,6 +7,8 @@ module.exports = {
     ],
     providerOptions: {
         default_balance_ether: '10000000000000000000000000',
+        gasLimit: '10000000',
+        locked: false,
     },
     mocha: {
         fgrep: '[skip-on-coverage]',
